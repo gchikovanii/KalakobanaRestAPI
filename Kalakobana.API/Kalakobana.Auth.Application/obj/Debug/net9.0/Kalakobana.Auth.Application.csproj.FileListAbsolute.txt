@@ -1,0 +1,17 @@
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Application.deps.json
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Application.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Application.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Domain.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Infrastructure.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Domain.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\bin\Debug\net9.0\Kalakobana.Auth.Infrastructure.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.csproj.AssemblyReference.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.AssemblyInfoInputs.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.AssemblyInfo.cs
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.csproj.CoreCompileInputs.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakoba.B187E6EA.Up2Date
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\refint\Kalakobana.Auth.Application.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\Kalakobana.Auth.Application.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Application\obj\Debug\net9.0\ref\Kalakobana.Auth.Application.dll

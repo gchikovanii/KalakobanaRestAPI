@@ -1,0 +1,12 @@
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.deps.json
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.csproj.AssemblyReference.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.AssemblyInfoInputs.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.AssemblyInfo.cs
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.csproj.CoreCompileInputs.cache
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\refint\Kalakobana.Auth.Domain.dll
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.pdb
+C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\ref\Kalakobana.Auth.Domain.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2VXZ8ebOeQ4fy3tUwzniFp2jSK+Pas2V2Lg/qYjH7DM=",
+  "Source": "Kalakobana.Auth.API",
+  "BasePath": "_content/Kalakobana.Auth.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

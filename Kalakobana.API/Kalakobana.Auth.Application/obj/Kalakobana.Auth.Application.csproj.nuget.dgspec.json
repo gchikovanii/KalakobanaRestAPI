@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj": {}
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj": {}
   },
   "projects": {
-    "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj": {
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj",
+        "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj",
         "projectName": "Kalakobana.Auth.Application",
-        "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj",
-        "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-        "outputPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Application\\obj\\",
+        "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj",
+        "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
-                "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj"
+              "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
+                "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj"
               },
-              "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj": {
-                "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj"
+              "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj"
+              },
+              "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj"
               }
             }
           }
@@ -95,20 +97,20 @@
         }
       }
     },
-    "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
         "projectName": "Kalakobana.Auth.Domain",
-        "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
-        "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-        "outputPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\obj\\",
+        "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
+        "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,7 +119,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -171,20 +172,20 @@
         }
       }
     },
-    "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj": {
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj",
         "projectName": "Kalakobana.Auth.Infrastructure",
-        "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-        "outputPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Kalakobana.Auth.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,15 +194,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
-                "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj"
+              "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj": {
+                "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj"
               }
             }
           }
@@ -247,6 +247,71 @@
               "version": "[9.0.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj",
+        "projectName": "Kalakobana.SharedKernel",
+        "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",

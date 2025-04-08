@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kalakobana.Auth.Domain\Kalakobana.Auth.Domain.csproj" />
     <ProjectReference Include="..\Kalakobana.Auth.Infrastructure\Kalakobana.Auth.Infrastructure.csproj" />
+    <ProjectReference Include="..\Kalakobana.SharedKernel\Kalakobana.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

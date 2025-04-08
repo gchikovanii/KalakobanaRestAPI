@@ -1903,23 +1903,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gchik\\.nuget\\packages\\": {},
+    "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
       "projectName": "Kalakobana.Auth.Domain",
-      "projectPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
-      "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-      "outputPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Domain\\obj\\",
+      "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\Kalakobana.Auth.Domain.csproj",
+      "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1928,7 +1928,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,25 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\",
+  "WorkspaceRootPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\wisebuzzer\\kalakobana\\back-end\\kalakobana.api\\kalakobana.auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\wisebuzzer\\kalakobana\\back-end\\kalakobana.api\\kalakobana.auth.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\wisebuzzer\\kalakobana\\back-end\\kalakobana.api\\kalakobana.auth.api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\users\\giorgi.chikovani\\desktop\\kalak\\kalakobana.api\\kalakobana.auth.api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\wisebuzzer\\kalakobana\\back-end\\kalakobana.api\\kalakobana.auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B100731-E5AB-4B17-B521-2CCDAF693E8D}|Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj|c:\\users\\giorgi.chikovani\\desktop\\kalak\\kalakobana.api\\kalakobana.auth.application\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B100731-E5AB-4B17-B521-2CCDAF693E8D}|Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj|solutionrelative:kalakobana.auth.application\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\users\\giorgi.chikovani\\desktop\\kalak\\kalakobana.api\\kalakobana.auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -33,69 +25,50 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250406150128_InitialAuthorization.cs",
-              "DocumentMoniker": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs",
-              "ToolTip": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs",
-              "RelativeToolTip": "Kalakobana.Auth.Infrastructure\\Migrations\\20250406150128_InitialAuthorization.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:01:28.839Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Kalakobana.Auth.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T14:58:33.044Z",
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:53:51.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.API\\appsettings.json",
-              "ToolTip": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\appsettings.json",
-              "RelativeToolTip": "Kalakobana.Auth.API\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T14:58:30.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
+              "DocumentMoniker": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
               "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "ToolTip": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
               "RelativeToolTip": "Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAIwG0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T14:58:08.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
               "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Program.cs",
-              "ToolTip": "C:\\WiseBuzzer\\Kalakobana\\Back-end\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
+              "ToolTip": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
               "RelativeToolTip": "Kalakobana.Auth.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:56:54.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T14:56:54.432Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

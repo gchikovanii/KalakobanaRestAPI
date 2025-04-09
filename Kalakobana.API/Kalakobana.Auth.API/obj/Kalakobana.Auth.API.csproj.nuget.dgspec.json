@@ -176,6 +176,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"

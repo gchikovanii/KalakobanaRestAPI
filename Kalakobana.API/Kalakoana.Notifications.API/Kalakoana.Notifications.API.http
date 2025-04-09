@@ -1,0 +1,6 @@
+@Kalakoana.Notifications.API_HostAddress = http://localhost:5270
+
+GET {{Kalakoana.Notifications.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

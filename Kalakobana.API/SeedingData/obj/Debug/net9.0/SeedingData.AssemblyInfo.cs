@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeedingData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed349ab90f931b861ec54a0955fa15c51d9ef6aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf665338059bbbf7d264dce0eb5d1064b4165fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeedingData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeedingData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

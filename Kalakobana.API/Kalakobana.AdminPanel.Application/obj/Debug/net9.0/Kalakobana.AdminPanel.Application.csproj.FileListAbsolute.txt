@@ -14,3 +14,5 @@ C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Applicati
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\refint\Kalakobana.AdminPanel.Application.dll
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.pdb
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\ref\Kalakobana.AdminPanel.Application.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\SeedingData.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\SeedingData.pdb

@@ -94,3 +94,13 @@ C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\obj\D
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\obj\Debug\net9.0\Kalakobana.AdminPanel.API.pdb
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\obj\Debug\net9.0\Kalakobana.AdminPanel.API.genruntimeconfig.cache
 C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\obj\Debug\net9.0\ref\Kalakobana.AdminPanel.API.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\ClosedXML.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\ClosedXML.Parser.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\ExcelNumberFormat.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\RBush.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\System.IO.Packaging.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\SeedingData.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.API\bin\Debug\net9.0\SeedingData.pdb

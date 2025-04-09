@@ -56,5 +56,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.AdminPanel.API.Controllers.AdminPanelController",
+    "Method": "SeedNames",
+    "RelativePath": "api/AdminPanel/seed-names",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

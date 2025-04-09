@@ -3,6 +3,7 @@ using Kalakobana.AdminPanel.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SeedingData;
 
 namespace Kalakobana.AdminPanel.API.Controllers
 {
@@ -79,6 +80,19 @@ namespace Kalakobana.AdminPanel.API.Controllers
             catch (Exception ex)
             {
                 return BadRequest($"Error processing pending data: {ex.Message}");
+            }
+        }
+        [HttpPost("seed-names")]
+        public async Task<IActionResult> SeedNames()
+        {
+            var success = await _panelService.SeedNamesAsync();
+            if (success)
+            {
+                return Ok("Names seeded successfully.");
+            }
+            else
+            {
+                return StatusCode(500, "An error occurred while seeding names.");
             }
         }
     }

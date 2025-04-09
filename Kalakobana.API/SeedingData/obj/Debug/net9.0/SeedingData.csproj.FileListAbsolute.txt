@@ -1,0 +1,13 @@
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\bin\Debug\net9.0\SeedingData.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\bin\Debug\net9.0\SeedingData.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\bin\Debug\net9.0\SeedingData.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.csproj.AssemblyReference.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\refint\SeedingData.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\SeedingData.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\SeedingData\obj\Debug\net9.0\ref\SeedingData.dll

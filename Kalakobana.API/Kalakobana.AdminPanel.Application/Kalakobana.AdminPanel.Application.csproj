@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kalakobana.AdminPanel.Domain\Kalakobana.AdminPanel.Domain.csproj" />
+    <ProjectReference Include="..\SeedingData\SeedingData.csproj" />
   </ItemGroup>
 
 </Project>

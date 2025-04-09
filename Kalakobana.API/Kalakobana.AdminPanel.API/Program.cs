@@ -3,6 +3,7 @@ using Kalakobana.AdminPanel.Application.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
+using SeedingData;
 using Serilog;
 using System.Data;
 using System.Text;
@@ -23,6 +24,7 @@ builder.Services.AddScoped<IDbConnection>(sp =>
 });
 builder.Services.AddScoped<IDataRepository, DataRepository>();
 builder.Services.AddScoped<IAdminPanelService, AdminPanelService>();
+builder.Services.AddScoped<IFirstAndLastNameSeeder, FirstAndLastNameSeeder>();
 
 builder.Host.UseSerilog((context, configration) =>
     configration.ReadFrom.Configuration(context.Configuration));

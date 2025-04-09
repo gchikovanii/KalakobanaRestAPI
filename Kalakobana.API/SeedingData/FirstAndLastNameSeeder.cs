@@ -7,7 +7,7 @@ namespace SeedingData
         private readonly string path = @"C:\Resources\names.xlsx";
         private readonly List<string> firstNames = new();
         private readonly List<string> lastNames = new();
-        public List<string> SeedFirstNames()
+        public List<string> GetFirstNames()
         {
             using (var workBook = new XLWorkbook(path))
             {
@@ -27,7 +27,7 @@ namespace SeedingData
             }
             return firstNames;
         }
-        public List<string> SeedLastNames()
+        public List<string> GetLastNames()
         {
             using (var workBook = new XLWorkbook(path))
             {

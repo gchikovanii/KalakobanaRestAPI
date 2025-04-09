@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Kalakobana.AdminPanel.Domain.Models;
+using SeedingData;
 using Serilog;
 using System.Data;
 
@@ -9,11 +10,13 @@ namespace Kalakobana.AdminPanel.Application.Services
     {
         private readonly IDbConnection _connection;
         private readonly ILogger _logger;
+        private readonly IFirstAndLastNameSeeder _seeder;
 
-        public AdminPanelService(ILogger logger, IDbConnection connection)
+        public AdminPanelService(ILogger logger, IDbConnection connection, IFirstAndLastNameSeeder seeder)
         {
             _logger = logger;
             _connection = connection;
+            _seeder = seeder;
         }
         public async Task<bool> InsertAsync(DataRequest dataRequest)
         {
@@ -117,6 +120,39 @@ namespace Kalakobana.AdminPanel.Application.Services
                 throw new Exception("Error deleting pending data", ex);
             }
         }
-
+        public async Task<bool> SeedNamesAsync()
+        {
+            var firstNames = _seeder.GetFirstNames();
+            var lastNames = _seeder.GetLastNames();
+            foreach (var firstName in firstNames)
+            {
+                var query = "INSERT INTO FirstName (Value) VALUES (@FirstName)";
+                var parameters = new { FirstName = firstName };
+                try
+                {
+                    await _connection.ExecuteAsync(query, parameters);
+                }
+                catch (Exception ex)
+                {
+                    _logger.Error(ex, "Error inserting first name: {FirstName}", firstName);
+                    return false;
+                }
+            }
+            foreach (var lastName in lastNames)
+            {
+                var query = "INSERT INTO LastName (Value) VALUES (@LastName)";
+                var parameters = new { LastName = lastName };
+                try
+                {
+                    await _connection.ExecuteAsync(query, parameters);
+                }
+                catch (Exception ex)
+                {
+                    _logger.Error(ex, "Error inserting last name: {LastName}", lastName);
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }

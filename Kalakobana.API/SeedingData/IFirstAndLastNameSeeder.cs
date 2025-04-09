@@ -2,7 +2,7 @@
 {
     public interface IFirstAndLastNameSeeder
     {
-        List<string> SeedFirstNames();
-        List<string> SeedLastNames();
+        List<string> GetFirstNames();
+        List<string> GetLastNames();
     }
 }

@@ -8,5 +8,6 @@ namespace Kalakobana.AdminPanel.Application.Services
         Task<bool> DeleteAsync(DataRequest dataRequest);
         Task<IEnumerable<PendingData>> GetPendingDataAsync();
         Task<bool> ProcessPendingDataAsync(ProcessPendingData data);
+        Task<bool> SeedNamesAsync();
     }
 }

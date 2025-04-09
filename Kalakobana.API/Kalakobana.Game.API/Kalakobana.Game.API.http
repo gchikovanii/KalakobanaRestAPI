@@ -1,0 +1,6 @@
+@Kalakobana.Game.API_HostAddress = http://localhost:5081
+
+GET {{Kalakobana.Game.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.auth.api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B100731-E5AB-4B17-B521-2CCDAF693E8D}|Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.auth.application\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B100731-E5AB-4B17-B521-2CCDAF693E8D}|Kalakobana.Auth.Application\\Kalakobana.Auth.Application.csproj|solutionrelative:kalakobana.auth.application\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80206A88-D007-408A-B62D-1937D7F1F0E5}|SeedingData\\SeedingData.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\seedingdata\\firstandlastnameseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80206A88-D007-408A-B62D-1937D7F1F0E5}|SeedingData\\SeedingData.csproj|solutionrelative:seedingdata\\firstandlastnameseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
-              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "Kalakobana.Auth.Application\\Commands\\RegisterCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:53:51.293Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "RelativeToolTip": "Kalakobana.Auth.API\\Controllers\\AuthorizationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAADAAAAAAAAAA==",
+              "Title": "FirstAndLastNameSeeder.cs",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\SeedingData\\FirstAndLastNameSeeder.cs",
+              "RelativeDocumentMoniker": "SeedingData\\FirstAndLastNameSeeder.cs",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\SeedingData\\FirstAndLastNameSeeder.cs",
+              "RelativeToolTip": "SeedingData\\FirstAndLastNameSeeder.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:58:08.386Z",
+              "WhenOpened": "2025-04-09T10:47:12.209Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
-              "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Program.cs",
-              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Program.cs",
-              "RelativeToolTip": "Kalakobana.Auth.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T14:56:54.432Z"
             }
           ]
         }

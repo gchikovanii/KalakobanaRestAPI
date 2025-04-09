@@ -1,3 +1,5 @@
+using Kalakobana.AdminPanel.Application.Repos;
+using Kalakobana.AdminPanel.Application.Services;
 using Kalakobana.Game.Application.Repos;
 using Kalakobana.Game.Application.Services;
 using Microsoft.Data.SqlClient;
@@ -17,7 +19,8 @@ builder.Services.AddScoped<IDbConnection>(sp =>
     var connectionString = configuration.GetConnectionString("DefaultConnection");
     return new SqlConnection(connectionString);
 });
-
+builder.Services.AddScoped<IDataRepository, DataRepository>();
+builder.Services.AddScoped<IAdminPanelService, AdminPanelService>();
 #region Add Services
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<IValidationRepository, ValidationRepository>();

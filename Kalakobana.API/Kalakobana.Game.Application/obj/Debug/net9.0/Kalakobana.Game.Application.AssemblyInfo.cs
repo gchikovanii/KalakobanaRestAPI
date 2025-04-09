@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kalakobana.Game.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eb37231918d9d831c3e406f71658bfb461ff43a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed349ab90f931b861ec54a0955fa15c51d9ef6aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kalakobana.Game.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kalakobana.Game.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

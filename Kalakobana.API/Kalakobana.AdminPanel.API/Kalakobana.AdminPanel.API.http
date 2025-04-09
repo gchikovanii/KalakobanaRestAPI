@@ -1,4 +1,4 @@
-@Kalakobana.AdminPanel.API_HostAddress = http://localhost:5021
+@Kalakobana.AdminPanel.API_HostAddress = http://localhost:5016
 
 GET {{Kalakobana.AdminPanel.API_HostAddress}}/weatherforecast/
 Accept: application/json

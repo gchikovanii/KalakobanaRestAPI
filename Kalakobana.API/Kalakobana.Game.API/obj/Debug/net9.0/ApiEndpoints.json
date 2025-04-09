@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Kalakobana.Game.API.Controllers.GameController",
+    "Method": "SubmitAnswers",
+    "RelativePath": "api/Game/submit-answers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Kalakobana.Game.Domain.Models.AnswerRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.Game.API.Controllers.GameController",
+    "Method": "Post",
+    "RelativePath": "api/Game/vote-answer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Kalakobana.Game.Domain.Models.PendingData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

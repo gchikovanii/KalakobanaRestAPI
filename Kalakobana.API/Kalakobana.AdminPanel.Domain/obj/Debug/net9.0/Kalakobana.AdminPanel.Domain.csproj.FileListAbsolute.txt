@@ -1,0 +1,12 @@
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\bin\Debug\net9.0\Kalakobana.AdminPanel.Domain.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\bin\Debug\net9.0\Kalakobana.AdminPanel.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\bin\Debug\net9.0\Kalakobana.AdminPanel.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\refint\Kalakobana.AdminPanel.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\Kalakobana.AdminPanel.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Domain\obj\Debug\net9.0\ref\Kalakobana.AdminPanel.Domain.dll

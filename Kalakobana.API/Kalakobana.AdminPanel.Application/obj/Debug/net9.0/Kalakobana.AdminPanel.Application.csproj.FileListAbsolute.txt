@@ -1,0 +1,16 @@
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\Kalakobana.AdminPanel.Application.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\Kalakobana.AdminPanel.Application.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\Kalakobana.AdminPanel.Application.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\Kalakobana.AdminPanel.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\bin\Debug\net9.0\Kalakobana.AdminPanel.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.csproj.AssemblyReference.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakoba.EDDBA3E1.Up2Date
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\refint\Kalakobana.AdminPanel.Application.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\Kalakobana.AdminPanel.Application.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.AdminPanel.Application\obj\Debug\net9.0\ref\Kalakobana.AdminPanel.Application.dll

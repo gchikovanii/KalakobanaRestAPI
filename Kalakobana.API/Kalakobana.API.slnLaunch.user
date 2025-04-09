@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Kalakoana.Notifications.API\\Kalakoana.Notifications.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Kalakobana.Game.API\\Kalakobana.Game.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

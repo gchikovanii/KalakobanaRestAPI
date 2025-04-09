@@ -3,6 +3,7 @@ using Kalakobana.Auth.Application.Services.JWT;
 using Kalakobana.Auth.Domain;
 using Kalakobana.Auth.Infrastructure.DataContext;
 using Kalakobana.Auth.Infrastructure.Services;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -46,8 +47,14 @@ builder.Services.AddAuthentication(options =>
     facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"]!;
 });
 ;
-
-
+builder.Services.AddMassTransit(i =>
+{
+    i.UsingRabbitMq((context, cfg) =>
+    {
+        cfg.Host("rabbitmq://localhost");
+        cfg.ConfigureEndpoints(context);
+    });
+});
 #region Register Services
 builder.Services.AddScoped<IdentityInitializer>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();

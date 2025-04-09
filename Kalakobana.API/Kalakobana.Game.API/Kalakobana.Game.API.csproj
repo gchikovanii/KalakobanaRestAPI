@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kalakobana.AdminPanel.Application\Kalakobana.AdminPanel.Application.csproj" />
     <ProjectReference Include="..\Kalakobana.Game.Application\Kalakobana.Game.Application.csproj" />
     <ProjectReference Include="..\Kalakobana.Game.Domain\Kalakobana.Game.Domain.csproj" />
   </ItemGroup>

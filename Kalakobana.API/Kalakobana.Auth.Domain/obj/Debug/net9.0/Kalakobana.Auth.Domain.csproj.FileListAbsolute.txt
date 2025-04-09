@@ -10,3 +10,16 @@ C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debu
 C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\refint\Kalakobana.Auth.Domain.dll
 C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.pdb
 C:\WiseBuzzer\Kalakobana\Back-end\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\ref\Kalakobana.Auth.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\bin\Debug\net9.0\Kalakobana.Auth.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.csproj.AssemblyReference.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\refint\Kalakobana.Auth.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\Kalakobana.Auth.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Auth.Domain\obj\Debug\net9.0\ref\Kalakobana.Auth.Domain.dll

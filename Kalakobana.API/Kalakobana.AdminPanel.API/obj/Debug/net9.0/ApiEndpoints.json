@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Kalakobana.AdminPanel.API.Controllers.AdminPanelController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/AdminPanel/delete-from-db",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataRequest",
+        "Type": "Kalakobana.AdminPanel.Domain.Models.DataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.AdminPanel.API.Controllers.AdminPanelController",
+    "Method": "GetPendingData",
+    "RelativePath": "api/AdminPanel/get-pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.AdminPanel.API.Controllers.AdminPanelController",
+    "Method": "InsertAsync",
+    "RelativePath": "api/AdminPanel/insert-into-db",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataRequest",
+        "Type": "Kalakobana.AdminPanel.Domain.Models.DataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.AdminPanel.API.Controllers.AdminPanelController",
+    "Method": "ProcessingPendingData",
+    "RelativePath": "api/AdminPanel/process-pending-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pendingData",
+        "Type": "Kalakobana.AdminPanel.Domain.Models.ProcessPendingData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

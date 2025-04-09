@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pbEV0LgWBLaYIAxjBB8wVKfE4fQRajpW+zqQFPSXMhs=",
+  "Source": "Kalakobana.AdminPanel.API",
+  "BasePath": "_content/Kalakobana.AdminPanel.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

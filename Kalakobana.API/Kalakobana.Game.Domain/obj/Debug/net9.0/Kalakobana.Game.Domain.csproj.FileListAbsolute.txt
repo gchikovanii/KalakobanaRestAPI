@@ -1,0 +1,12 @@
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\bin\Debug\net9.0\Kalakobana.Game.Domain.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\bin\Debug\net9.0\Kalakobana.Game.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\bin\Debug\net9.0\Kalakobana.Game.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\refint\Kalakobana.Game.Domain.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\Kalakobana.Game.Domain.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.Game.Domain\obj\Debug\net9.0\ref\Kalakobana.Game.Domain.dll

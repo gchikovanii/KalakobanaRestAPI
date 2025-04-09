@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4271F8A1-52C2-47F5-9166-83FA8060BB16}|Kalakobana.Game.API\\Kalakobana.Game.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.game.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4271F8A1-52C2-47F5-9166-83FA8060BB16}|Kalakobana.Game.API\\Kalakobana.Game.API.csproj|solutionrelative:kalakobana.game.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.adminpanel.api\\controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|solutionrelative:kalakobana.adminpanel.api\\controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.adminpanel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|solutionrelative:kalakobana.adminpanel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.adminpanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B01CDC5E-323F-441D-A788-0EB4866A4AE7}|Kalakobana.AdminPanel.API\\Kalakobana.AdminPanel.API.csproj|solutionrelative:kalakobana.adminpanel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakobana.auth.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6D94CCE6-0631-4016-92F9-61DBB5FB4CAA}|Kalakobana.Auth.API\\Kalakobana.Auth.API.csproj|solutionrelative:kalakobana.auth.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D52DE93-4FCE-457E-AAD9-9A9A7FE94966}|Kalakoana.Notifications.API\\Kalakoana.Notifications.API.csproj|c:\\projects\\wisebuzzer\\kalakobana\\kalakobana.api\\kalakoana.notifications.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D52DE93-4FCE-457E-AAD9-9A9A7FE94966}|Kalakoana.Notifications.API\\Kalakoana.Notifications.API.csproj|solutionrelative:kalakoana.notifications.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Kalakobana.AdminPanel.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Kalakobana.AdminPanel.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T14:03:11.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Kalakobana.AdminPanel.API\\appsettings.json",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\appsettings.json",
+              "RelativeToolTip": "Kalakobana.AdminPanel.API\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T14:03:02.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminPanelController.cs",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\Controllers\\AdminPanelController.cs",
+              "RelativeDocumentMoniker": "Kalakobana.AdminPanel.API\\Controllers\\AdminPanelController.cs",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.AdminPanel.API\\Controllers\\AdminPanelController.cs",
+              "RelativeToolTip": "Kalakobana.AdminPanel.API\\Controllers\\AdminPanelController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T14:00:23.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakoana.Notifications.API\\Program.cs",
+              "RelativeDocumentMoniker": "Kalakoana.Notifications.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakoana.Notifications.API\\Program.cs",
+              "RelativeToolTip": "Kalakoana.Notifications.API\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:57:40.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.API\\Program.cs",
+              "RelativeDocumentMoniker": "Kalakobana.Game.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.API\\Program.cs",
+              "RelativeToolTip": "Kalakobana.Game.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:57:06.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Kalakobana.Auth.API\\Dockerfile",
+              "ToolTip": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Auth.API\\Dockerfile",
+              "RelativeToolTip": "Kalakobana.Auth.API\\Dockerfile",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-09T13:50:26.525Z",
+              "EditorCaption": ""
             }
           ]
         }

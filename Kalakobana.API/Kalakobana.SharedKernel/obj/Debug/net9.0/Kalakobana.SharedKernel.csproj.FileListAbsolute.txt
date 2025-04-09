@@ -1,0 +1,12 @@
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\bin\Debug\net9.0\Kalakobana.SharedKernel.deps.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\bin\Debug\net9.0\Kalakobana.SharedKernel.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\bin\Debug\net9.0\Kalakobana.SharedKernel.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.AssemblyInfoInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.AssemblyInfo.cs
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.sourcelink.json
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\refint\Kalakobana.SharedKernel.dll
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\Kalakobana.SharedKernel.pdb
+C:\Projects\WiseBuzzer\Kalakobana\Kalakobana.API\Kalakobana.SharedKernel\obj\Debug\net9.0\ref\Kalakobana.SharedKernel.dll

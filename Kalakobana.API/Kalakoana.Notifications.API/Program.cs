@@ -7,6 +7,8 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<GoogleAppSettings>(builder.Configuration.GetSection("GoogleAppSettings"));
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddControllers();
+
 #region MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(i =>
 {
@@ -38,7 +40,7 @@ builder.Services.AddMassTransit(i =>
     });
 });
 #endregion
-
+builder.Services.AddAuthorization();
 //Adding serilog configuration which is stored in appsettings.json
 builder.Host.UseSerilog((context, configration) =>
     configration.ReadFrom.Configuration(context.Configuration));

@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "Kalakobana.Auth.API.Controllers.AuthorizationController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Authorization/confirm-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.Auth.API.Controllers.AuthorizationController",
     "Method": "FacebookLogin",
     "RelativePath": "api/Authorization/external-login/facebook",
     "HttpMethod": "POST",
@@ -58,6 +79,38 @@
       {
         "Name": "command",
         "Type": "Kalakobana.Auth.Application.Commands.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.Auth.API.Controllers.AuthorizationController",
+    "Method": "RequestPasswordReset",
+    "RelativePath": "api/Authorization/request-password-reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Kalakobana.Auth.Application.Commands.RequestPasswordResetCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kalakobana.Auth.API.Controllers.AuthorizationController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Authorization/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Kalakobana.Auth.Application.Commands.ResetPasswordCommand",
         "IsRequired": true
       }
     ],

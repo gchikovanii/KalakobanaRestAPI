@@ -1,10 +1,12 @@
 ﻿using Kalakobana.Game.Application.Services;
 using Kalakobana.Game.Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kalakobana.Game.API.Controllers
 {
+    [Authorize(Policy = "UserOnly")]
     [Route("api/[controller]")]
     [ApiController]
     public class GameController : ControllerBase

@@ -1,10 +1,12 @@
 ﻿using Kalakobana.AdminPanel.Application.Services;
 using Kalakobana.AdminPanel.Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kalakobana.AdminPanel.API.Controllers
 {
+    [Authorize(Policy = "AdminOnly")]
     [Route("api/[controller]")]
     [ApiController]
     public class AdminPanelController : ControllerBase

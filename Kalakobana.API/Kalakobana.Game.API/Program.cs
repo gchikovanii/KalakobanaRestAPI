@@ -18,9 +18,11 @@ builder.Services.AddScoped<IDbConnection>(sp =>
     return new SqlConnection(connectionString);
 });
 
+#region Add Services
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<IValidationRepository, ValidationRepository>();
-
+builder.Services.AddScoped<IVotingRepository, VotingRepository>();
+#endregion
 
 var app = builder.Build();
 

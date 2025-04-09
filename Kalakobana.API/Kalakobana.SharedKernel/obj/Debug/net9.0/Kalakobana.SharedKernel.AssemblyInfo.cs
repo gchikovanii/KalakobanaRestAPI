@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kalakobana.SharedKernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319c7747bcf2bb470cd3ba7b0b37269b2befa80b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eb37231918d9d831c3e406f71658bfb461ff43a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kalakobana.SharedKernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kalakobana.SharedKernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

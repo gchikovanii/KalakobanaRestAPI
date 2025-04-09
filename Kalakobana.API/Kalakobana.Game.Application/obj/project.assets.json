@@ -805,6 +805,16 @@
         "runtime": {
           "bin/placeholder/Kalakobana.Game.Domain.dll": {}
         }
+      },
+      "Kalakobana.SharedKernel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Kalakobana.SharedKernel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kalakobana.SharedKernel.dll": {}
+        }
       }
     }
   },
@@ -2020,12 +2030,18 @@
       "type": "project",
       "path": "../Kalakobana.Game.Domain/Kalakobana.Game.Domain.csproj",
       "msbuildProject": "../Kalakobana.Game.Domain/Kalakobana.Game.Domain.csproj"
+    },
+    "Kalakobana.SharedKernel/1.0.0": {
+      "type": "project",
+      "path": "../Kalakobana.SharedKernel/Kalakobana.SharedKernel.csproj",
+      "msbuildProject": "../Kalakobana.SharedKernel/Kalakobana.SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Dapper >= 2.1.66",
       "Kalakobana.Game.Domain >= 1.0.0",
+      "Kalakobana.SharedKernel >= 1.0.0",
       "Microsoft.Data.SqlClient >= 6.0.1",
       "Microsoft.Extensions.Configuration >= 9.0.4",
       "Microsoft.Extensions.Configuration.Json >= 9.0.4",
@@ -2067,6 +2083,9 @@
           "projectReferences": {
             "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {
               "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj"
+            },
+            "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj": {
+              "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj"
             }
           }
         }

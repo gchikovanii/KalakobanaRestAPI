@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Kalakobana.Game.Domain\Kalakobana.Game.Domain.csproj" />
+    <ProjectReference Include="..\Kalakobana.SharedKernel\Kalakobana.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

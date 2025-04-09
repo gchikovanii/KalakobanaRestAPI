@@ -1,5 +1,6 @@
 ﻿using Kalakobana.Game.Application.Repos;
 using Kalakobana.Game.Domain.Models;
+using Kalakobana.SharedKernel.Constants;
 
 namespace Kalakobana.Game.Application.Services
 {
@@ -23,7 +24,11 @@ namespace Kalakobana.Game.Application.Services
             var allAnswers = request.Answers;
 
             // List of all categories to check
-            var categories = new List<string> { "FirstName", "LastName", "City", "Country", "Animal", "Movie", "River" };
+            var categories = new List<string> {
+                KalakobanaDataTables.FirstName.ToString(),KalakobanaDataTables.LastName.ToString(),
+                KalakobanaDataTables.City.ToString(),KalakobanaDataTables.Country.ToString(),
+                KalakobanaDataTables.Animal.ToString(),KalakobanaDataTables.Plant.ToString(),
+                KalakobanaDataTables.Movie.ToString(),KalakobanaDataTables.River.ToString() };
 
             foreach (var player in allAnswers)
             {
@@ -60,6 +65,7 @@ namespace Kalakobana.Game.Application.Services
                 case "Country": score.CountryPoint = point; break;
                 case "Animal": score.AnimalPoint = point; break;
                 case "Movie": score.MoviePoint = point; break;
+                case "Plant": score.PlantPoint = point; break;
                 case "River": score.RiverPoint = point; break;
             }
         }
@@ -108,6 +114,7 @@ namespace Kalakobana.Game.Application.Services
                 "Country" => player.Country,
                 "Animal" => player.Animal,
                 "Movie" => player.Movie,
+                "Plant" => player.Plant,
                 "River" => player.River,
                 _ => ""
             };

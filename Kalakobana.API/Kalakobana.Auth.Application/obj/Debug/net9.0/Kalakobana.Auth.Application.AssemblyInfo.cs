@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kalakobana.Auth.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f67703124d6d890849c2e22f728035a9032a6bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352c2a04af0c1e1927ad4f2aa66d5fb8943bc7fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kalakobana.Auth.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kalakobana.Auth.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,158 +1,159 @@
 ﻿using Dapper;
 using Kalakobana.AdminPanel.Domain.Models;
+using Microsoft.Data.SqlClient;
 using SeedingData;
 using Serilog;
 using System.Data;
 
 namespace Kalakobana.AdminPanel.Application.Services
 {
-    public class AdminPanelService : IAdminPanelService
+  public class AdminPanelService : IAdminPanelService
+  {
+    private readonly IDbConnection _connection;
+    private readonly ILogger _logger;
+    private readonly IFirstAndLastNameSeeder _seeder;
+
+    public AdminPanelService(ILogger logger, IDbConnection connection, IFirstAndLastNameSeeder seeder)
     {
-        private readonly IDbConnection _connection;
-        private readonly ILogger _logger;
-        private readonly IFirstAndLastNameSeeder _seeder;
-
-        public AdminPanelService(ILogger logger, IDbConnection connection, IFirstAndLastNameSeeder seeder)
-        {
-            _logger = logger;
-            _connection = connection;
-            _seeder = seeder;
-        }
-        public async Task<bool> InsertAsync(DataRequest dataRequest)
-        {
-            var query = $"INSERT INTO {dataRequest.TableName} (Value) VALUES (@Value)";
-            var parameters = new { Value = dataRequest.Value };
-
-            try
-            {
-                var result = await _connection.ExecuteAsync(query, parameters);
-                return result > 0;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error inserting value into table {TableName}: {Value}", dataRequest.TableName, dataRequest.Value);
-                throw new Exception(ex.Message);
-            }
-        }
-
-        public async Task<bool> DeleteAsync(DataRequest dataRequest)
-        {
-            var query = $"DELETE FROM {dataRequest.TableName} WHERE Value = @Value";
-            var parameters = new { Value = dataRequest.Value };
-
-            try
-            {
-                var result = await _connection.ExecuteAsync(query, parameters);
-                return result > 0;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error deleting data from table {TableName}: {Value}", dataRequest.TableName, dataRequest.Value);
-                throw new Exception(ex.Message);
-            }
-        }
-
-        public async Task<IEnumerable<PendingData>> GetPendingDataAsync()
-        {
-            var query = "SELECT Id, TableName, Value FROM dbo.Pending_Data";
-
-            try
-            {
-                var pendingData = await _connection.QueryAsync<PendingData>(query);
-                return pendingData;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error fetching pending data from dbo.Pending_Data");
-                throw new Exception("Error fetching pending data", ex);
-            }
-        }
-        public async Task<bool> ProcessPendingDataAsync(ProcessPendingData data)
-        {
-            // Fetch the pending data
-            var pendingData = await _connection.QueryFirstOrDefaultAsync<PendingData>(
-                "SELECT Id, TableName, Value FROM dbo.Pending_Data WHERE Id = @Id",
-                new { Id = data.Id }
-            );
-
-            if (pendingData is null)
-            {
-                _logger.Warning("Pending data with Id {PendingId} not found.", data.Id);
-                return false;
-            }
-
-            if (data.ApproveStatus)
-            {
-                var insertDataRequest = new DataRequest
-                {
-                    TableName = pendingData.TableName,
-                    Value = pendingData.Value
-                };
-
-                var insertSuccess = await InsertAsync(insertDataRequest);
-
-                if (insertSuccess)
-                {
-                    return await DeletePendingDataAsync(data.Id);
-                }
-                _logger.Error("Failed to insert data into table {TableName}.", pendingData.TableName);
-                return false;
-            }
-            else
-            {
-                return await DeletePendingDataAsync(data.Id);
-            }
-        }
-
-        private async Task<bool> DeletePendingDataAsync(int pendingId)
-        {
-            var query = "DELETE FROM dbo.Pending_Data WHERE Id = @Id";
-            var parameters = new { Id = pendingId };
-
-            try
-            {
-                var result = await _connection.ExecuteAsync(query, parameters);
-                return result > 0;
-            }
-            catch (Exception ex)
-            {
-                _logger.Error(ex, "Error deleting pending data with Id {PendingId}", pendingId);
-                throw new Exception("Error deleting pending data", ex);
-            }
-        }
-        public async Task<bool> SeedNamesAsync()
-        {
-            var firstNames = _seeder.GetFirstNames();
-            var lastNames = _seeder.GetLastNames();
-            foreach (var firstName in firstNames)
-            {
-                var query = "INSERT INTO FirstName (Value) VALUES (@FirstName)";
-                var parameters = new { FirstName = firstName };
-                try
-                {
-                    await _connection.ExecuteAsync(query, parameters);
-                }
-                catch (Exception ex)
-                {
-                    _logger.Error(ex, "Error inserting first name: {FirstName}", firstName);
-                    return false;
-                }
-            }
-            foreach (var lastName in lastNames)
-            {
-                var query = "INSERT INTO LastName (Value) VALUES (@LastName)";
-                var parameters = new { LastName = lastName };
-                try
-                {
-                    await _connection.ExecuteAsync(query, parameters);
-                }
-                catch (Exception ex)
-                {
-                    _logger.Error(ex, "Error inserting last name: {LastName}", lastName);
-                    return false;
-                }
-            }
-            return true;
-        }
+      _logger = logger;
+      _connection = connection;
+      _seeder = seeder;
     }
+    public async Task<bool> InsertAsync(DataRequest dataRequest)
+    {
+      var query = $"INSERT INTO {dataRequest.TableName} (Value) VALUES (@Value)";
+      var parameters = new { Value = dataRequest.Value };
+
+      try
+      {
+        var result = await _connection.ExecuteAsync(query, parameters);
+        return result > 0;
+      }
+      catch (Exception ex)
+      {
+        _logger.Error(ex, "Error inserting value into table {TableName}: {Value}", dataRequest.TableName, dataRequest.Value);
+        throw new Exception(ex.Message);
+      }
+    }
+
+    public async Task<bool> DeleteAsync(DataRequest dataRequest)
+    {
+      var query = $"DELETE FROM {dataRequest.TableName} WHERE Value = @Value";
+      var parameters = new { Value = dataRequest.Value };
+
+      try
+      {
+        var result = await _connection.ExecuteAsync(query, parameters);
+        return result > 0;
+      }
+      catch (Exception ex)
+      {
+        _logger.Error(ex, "Error deleting data from table {TableName}: {Value}", dataRequest.TableName, dataRequest.Value);
+        throw new Exception(ex.Message);
+      }
+    }
+
+    public async Task<IEnumerable<PendingData>> GetPendingDataAsync()
+    {
+      var query = "SELECT Id, TableName, Value FROM dbo.Pending_Data";
+
+      try
+      {
+        var pendingData = await _connection.QueryAsync<PendingData>(query);
+        return pendingData;
+      }
+      catch (Exception ex)
+      {
+        _logger.Error(ex, "Error fetching pending data from dbo.Pending_Data");
+        throw new Exception("Error fetching pending data", ex);
+      }
+    }
+    public async Task<bool> ProcessPendingDataAsync(ProcessPendingData data)
+    {
+      // Fetch the pending data
+      var pendingData = await _connection.QueryFirstOrDefaultAsync<PendingData>(
+          "SELECT Id, TableName, Value FROM dbo.Pending_Data WHERE Id = @Id",
+          new { Id = data.Id }
+      );
+
+      if (pendingData is null)
+      {
+        _logger.Warning("Pending data with Id {PendingId} not found.", data.Id);
+        return false;
+      }
+
+      if (data.ApproveStatus)
+      {
+        var insertDataRequest = new DataRequest
+        {
+          TableName = pendingData.TableName,
+          Value = pendingData.Value
+        };
+
+        var insertSuccess = await InsertAsync(insertDataRequest);
+
+        if (insertSuccess)
+        {
+          return await DeletePendingDataAsync(data.Id);
+        }
+        _logger.Error("Failed to insert data into table {TableName}.", pendingData.TableName);
+        return false;
+      }
+      else
+      {
+        return await DeletePendingDataAsync(data.Id);
+      }
+    }
+
+    private async Task<bool> DeletePendingDataAsync(int pendingId)
+    {
+      var query = "DELETE FROM dbo.Pending_Data WHERE Id = @Id";
+      var parameters = new { Id = pendingId };
+
+      try
+      {
+        var result = await _connection.ExecuteAsync(query, parameters);
+        return result > 0;
+      }
+      catch (Exception ex)
+      {
+        _logger.Error(ex, "Error deleting pending data with Id {PendingId}", pendingId);
+        throw new Exception("Error deleting pending data", ex);
+      }
+    }
+    public async Task<bool> SeedNamesAsync()
+    {
+      try
+      {
+        var firstNames = _seeder.GetFirstNames();
+        var lastNames = _seeder.GetLastNames();
+
+        using (var bulkCopy = new SqlBulkCopy((SqlConnection)_connection))
+        {
+          bulkCopy.DestinationTableName = "FirstName";
+
+          var table = new DataTable();
+          table.Columns.Add("Value", typeof(string));
+          foreach (var name in firstNames)
+            table.Rows.Add(name);
+
+          await bulkCopy.WriteToServerAsync(table);
+
+          bulkCopy.DestinationTableName = "LastName";
+          table.Clear();
+          foreach (var name in lastNames)
+            table.Rows.Add(name);
+
+          await bulkCopy.WriteToServerAsync(table);
+        }
+
+        return true;
+      }
+      catch (Exception ex)
+      {
+        _logger.Error(ex, "Error during bulk seeding");
+        return false;
+      }
+    }
+  }
 }

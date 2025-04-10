@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {}
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {
+    "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj",
         "projectName": "Kalakobana.Game.Domain",
-        "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj",
-        "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\obj\\",
+        "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj",
+        "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

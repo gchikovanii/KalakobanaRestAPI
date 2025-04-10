@@ -10,12 +10,11 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-//Adding serilog configuration which is stored in appsettings.json
+
+
 builder.Services.AddScoped<IDbConnection>(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();

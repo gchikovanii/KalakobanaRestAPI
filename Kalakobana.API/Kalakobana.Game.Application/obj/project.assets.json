@@ -2049,23 +2049,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gchik\\.nuget\\packages\\": {},
+    "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Application\\Kalakobana.Game.Application.csproj",
+      "projectUniqueName": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Application\\Kalakobana.Game.Application.csproj",
       "projectName": "Kalakobana.Game.Application",
-      "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Application\\Kalakobana.Game.Application.csproj",
-      "packagesPath": "C:\\Users\\gchik\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Application\\obj\\",
+      "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Application\\Kalakobana.Game.Application.csproj",
+      "packagesPath": "C:\\Users\\giorgi.chikovani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\giorgi.chikovani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2074,18 +2074,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {
-              "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj"
+            "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj": {
+              "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.Game.Domain\\Kalakobana.Game.Domain.csproj"
             },
-            "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj": {
-              "projectPath": "C:\\Projects\\WiseBuzzer\\Kalakobana\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj"
+            "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\giorgi.chikovani\\Desktop\\Kalak\\Kalakobana.API\\Kalakobana.SharedKernel\\Kalakobana.SharedKernel.csproj"
             }
           }
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kalakobana.AdminPanel.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf665338059bbbf7d264dce0eb5d1064b4165fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991bff2f17962983be1b7ccc9eae4b3a3b7b8118")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kalakobana.AdminPanel.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kalakobana.AdminPanel.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
